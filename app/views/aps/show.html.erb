@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nombre:</strong>
+  <%= @ap.nombre %>
+</p>
+
+<p>
+  <strong>Edad:</strong>
+  <%= @ap.edad %>
+</p>
+
+<%= link_to 'Edit', edit_ap_path(@ap) %> |
+<%= link_to 'Back', aps_path %>
